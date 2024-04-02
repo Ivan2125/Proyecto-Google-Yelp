@@ -41,7 +41,6 @@ El proyecto abarcará el proceso ETL y el Análisis Exploratorio de Datos (EDA),
 ### Servicios y Herramientas de GCP
 
 - Cloud Storage (Almacenamiento de objetos)
-- Dataproc (Procesamiento de datos en clústeres Apache Spark)
 - BigQuery (Data Warehouse)
 - Vertex AI (Entrenamiento de modelos de ML)
 - Cloud Functions(Ejecución de tareas automatizadas)
