@@ -1,18 +1,26 @@
-# Yelp - Google Maps
+<div align="center">
+  <h1>Yelp - Google Maps</h1>
+</div>
+
+<center>
+
+![Image](assets/echelon-data-quipo.gif)
+
+</center>
+</div>
 
 ## Contenido
 
-- [Yelp - Google Maps](#yelp---google-maps)
-  - [Contenido](#contenido)
-  - [Objetivos del Proyecto](#objetivos-del-proyecto)
-  - [Alcance del Proyecto](#alcance-del-proyecto)
-  - [Stack Tecnológico](#stack-tecnológico)
-    - [Lenguaje de Programación](#lenguaje-de-programación)
-    - [Bibliotecas](#bibliotecas)
-    - [Frameworks](#frameworks)
-    - [Plataforma de Cloud](#plataforma-de-cloud)
-    - [Servicios y Herramientas de GCP](#servicios-y-herramientas-de-gcp)
-    - [Endpoints](#endpoints)
+- [Contenido](#contenido)
+- [Objetivos del Proyecto](#objetivos-del-proyecto)
+- [Alcance del Proyecto](#alcance-del-proyecto)
+- [Stack Tecnológico](#stack-tecnológico)
+  - [Lenguaje de Programación](#lenguaje-de-programación)
+  - [Bibliotecas](#bibliotecas)
+  - [Frameworks](#frameworks)
+  - [Plataforma de Cloud](#plataforma-de-cloud)
+  - [Servicios y Herramientas de GCP](#servicios-y-herramientas-de-gcp)
+  - [Endpoints](#endpoints)
 
 ## Objetivos del Proyecto
 
