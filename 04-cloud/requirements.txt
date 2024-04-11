@@ -1,0 +1,6 @@
+functions-framework
+google-cloud-bigquery
+google-cloud-storage
+PyYAML
+pandas
+pyarrow
