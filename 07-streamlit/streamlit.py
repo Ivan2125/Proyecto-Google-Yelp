@@ -37,8 +37,12 @@ st.set_page_config(
 )
 
 def get_style():
-    with open('style.css') as f:
-        return f.read()
+    try:
+        with open('style.css') as f:
+            return f.read()
+    except FileNotFoundError:
+        st.error('Archivo style.css no encontrado.')
+        return ""
 
 style = get_style()
 st.markdown(f'<style>{style}</style>', unsafe_allow_html=True)
