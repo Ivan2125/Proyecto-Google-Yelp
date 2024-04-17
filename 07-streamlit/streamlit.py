@@ -36,13 +36,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-@st.cache_resource
-def get_style():
-    with open('./style.css') as f:
-        return f.read()
-
-style = get_style()
-st.markdown(f'<style>{style}</style>', unsafe_allow_html=True)
+st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
 
 
 with st.sidebar:
