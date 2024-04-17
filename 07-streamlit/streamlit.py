@@ -35,8 +35,14 @@ st.set_page_config(
     page_icon="star",
     initial_sidebar_state="expanded"
 )
+try:
+    with open('style.css') as f:
+        style = f.read()
+except FileNotFoundError:
+    st.error('Archivo style.css no encontrado.')
+    style = ""
 
-st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
+st.markdown('<style>' + style + '</style>', unsafe_allow_html=True)
 
 
 with st.sidebar:
