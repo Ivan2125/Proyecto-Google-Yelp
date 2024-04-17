@@ -26,16 +26,12 @@ for package in nltk_packages:
     except LookupError:
         nltk.download(package)
 
-
-
-
 st.set_page_config(
     layout= "wide",
     page_title="Análisis de Sentimientos de Reviews de Walgreens en Google y Yelp",
     page_icon="star",
     initial_sidebar_state="expanded"
 )
-
 
 with st.sidebar:
     tabs = on_hover_tabs(tabName=['Home', 'Dashboard', "Modelos"], 
