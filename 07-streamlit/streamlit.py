@@ -36,7 +36,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-@st.cache_resource
 def get_style():
     with open('style.css') as f:
         return f.read()
