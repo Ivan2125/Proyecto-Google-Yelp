@@ -36,17 +36,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-def get_style():
-    try:
-        with open('style.css') as f:
-            return f.read()
-    except FileNotFoundError:
-        st.error('Archivo style.css no encontrado.')
-        return ""
-
-style = get_style()
-st.markdown(f'<style>{style}</style>', unsafe_allow_html=True)
-
 
 with st.sidebar:
     tabs = on_hover_tabs(tabName=['Home', 'Dashboard', "Modelos"], 
