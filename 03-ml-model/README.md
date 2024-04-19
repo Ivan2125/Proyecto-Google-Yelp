@@ -14,7 +14,7 @@ Enfocamos en recomendar tiendas de Walgreens cercanas a la **ubicación** escogi
 El Notebook usado para el desarrollo de este modelo de recomendación es el siguiente: [Modelo de recomendación N°01](/01.ML_Ubicación%20de%20Tiendas.ipynb)
 **Imagen Referencial**
 
-![ML1](/./assets/ML1.png)
+![ML1](../assets/ML1.png)
 
 ## Recomendación de ubicación de nuevas tiendas 📌
 
@@ -32,7 +32,7 @@ El modelo se fundamenta en datos sólidos y análisis profundos, lo que lo convi
 El Notebook usado para el desarrollo de este modelo de recomendación es el siguiente: [Modelo de recomendación N°02](/02.%20ML2_Reubicación_Tiendas.ipynb).
 **Imagen Referencial**
 
-![ML2](./assets/ML2.png)
+![ML2](../assets/ML2.png)
 
 ## Modelo de análisis de reseñas de competidores 📉
 
