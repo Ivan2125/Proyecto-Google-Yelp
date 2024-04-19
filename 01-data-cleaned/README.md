@@ -1,13 +1,10 @@
-ETL(extraccion, transformacion y carga de los datos) Google y Yelp
+# ETL(extraccion, transformacion y carga de los datos) Google y Yelp
 
 En esta parte del proyecto se enfocó en realizar una extraccion, transformacion y carga de los datos (ETL) utilizando dos fuentes principales: Google y Yelp. Nuestro objetivo fue extraer la data de ambas bases y poder juntar en un solo lugar todos los datos extraidos, con un filtrado leve por anticipacion.
 
-
 en los siguientes tableros se puede visualizar los nombres de los archivos, sus fuentes pertinentes y por ultimo un tablero de cada archivo con una explicacion del contenido de cada columna del mismo
 
-
-
-Archivos
+## Archivos
 
 | Nombres del Archivo               | Fuente de datos                         |
 |-----------------------------------|-----------------------------------------|
@@ -20,9 +17,7 @@ Archivos
 | tip_cs.parquet.gz                 | contiene las propinas de la fuente Yelp |
 | user_cs.parquet.gz                | contiene los usuarios de la fuente Yelp |
 
-
-
-Archivo: business_cs.parquet.gz
+### Archivo: business_cs.parquet.gz
 
 | Columnas                          | Datos                                   |
 |-----------------------------------|-----------------------------------------|
@@ -42,18 +37,14 @@ Archivo: business_cs.parquet.gz
 | state_name                        | contiene el nombre del estado           |
 | state_code                        | contiene el nombre de la ciudad         |
 
-
-
-Archivo: checkin.parquet.gz
+### Archivo: checkin.parquet.gz
 
 | Columnas                          | Datos                                   |
 |-----------------------------------|-----------------------------------------|
 | business_id                       | Identificador del negocio               |
 | date                              | tiempo de apertura y cierre             |
 
-
-
-Archivo: geo_cs.csv
+### Archivo: geo_cs.csv
 
 | Columnas                          | Datos                                   |
 |-----------------------------------|-----------------------------------------|
@@ -65,9 +56,7 @@ Archivo: geo_cs.csv
 | county                            | contiene el nombre del condado          |
 | is_urban                          | contiene la ubicacion es o no urbana    |
 
-
-
-Archivo: review_cs.parquet.gz
+### Archivo: review_cs.parquet.gz
 
 | Columnas                          | Datos                                   |
 |-----------------------------------|-----------------------------------------|
@@ -81,9 +70,7 @@ Archivo: review_cs.parquet.gz
 | text                              | contiene lel texto de la reseña         |
 | date                              | contiene la fecha de la reseña          |
 
-
-
-Archivo: review_sites_google_cs.parquet.gz
+### Archivo: review_sites_google_cs.parquet.gz
 
 | Columnas                          | Datos                                   |
 |-----------------------------------|-----------------------------------------|
@@ -106,9 +93,7 @@ Archivo: review_sites_google_cs.parquet.gz
 | business_name                     | contiene el nombre del negocio          |
 | State_review                      | contiene el estado de la reseña         |
 
-
-
-Archivo: sites_google_cs.parquet.gz
+### Archivo: sites_google_cs.parquet.gz
 
 | Columnas                          | Datos                                   |
 |-----------------------------------|-----------------------------------------|
@@ -124,9 +109,7 @@ Archivo: sites_google_cs.parquet.gz
 | state_us                          | contiene la abreviación del estado      |
 | horario                           | contiene los horarios del local         |
 
-
-
-Archivo: tip_cs.parquet.gz
+### Archivo: tip_cs.parquet.gz
 
 | Columnas                          | Datos                                   |
 |-----------------------------------|-----------------------------------------|
@@ -136,10 +119,7 @@ Archivo: tip_cs.parquet.gz
 | date                              | contiene la fecha de cada reseña        |
 | compliment_count                  | contiene cuantas veces gusto la reseña  |
 
-
-
-
-Archivo: user_cs.parquet.gz
+### Archivo: user_cs.parquet.gz
 
 | Columnas                          | Datos                                                      |
 |-----------------------------------|------------------------------------------------------------|
@@ -165,18 +145,3 @@ Archivo: user_cs.parquet.gz
 | compliment_funny                  | total de cumplidos 'funny' recibidos por el usuario        |
 | compliment_writer                 | numero de cumplidos escritos recibidos por el usuario      |
 | compliment_photos                 | número de cumplidos en foto recibidos por el usuario       |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
