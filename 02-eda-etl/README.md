@@ -4,7 +4,7 @@
 
 <center>
 
-![Image](assets/echelon-data-quipo.gif)
+![Image](../assets/echelon-data-quipo.gif)
 
 </center>
 </div>
