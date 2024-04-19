@@ -12,7 +12,6 @@ Enfocamos en recomendar tiendas de Walgreens cercanas a la **ubicación** escogi
   - Una tabla donde se proporciona información sobre cada tienda, incluyendo su geolocalización, calificación (rating), reseñas y el ID único de cada una.
 
 El Notebook usado para el desarrollo de este modelo de recomendación es el siguiente: [Modelo de recomendación N°01](/01.ML_Ubicación%20de%20Tiendas.ipynb)
-**Imagen Referencial**
 
 ![ML1](../assets/ML1.png)
 
@@ -30,7 +29,6 @@ El modelo se fundamenta en datos sólidos y análisis profundos, lo que lo convi
   - Medimos la presencia de Walgreens en ese mercado mediante la cantidad de tiendas Walgreens existentes.
 
 El Notebook usado para el desarrollo de este modelo de recomendación es el siguiente: [Modelo de recomendación N°02](/02.%20ML2_Reubicación_Tiendas.ipynb).
-**Imagen Referencial**
 
 ![ML2](../assets/ML2.png)
 
@@ -45,7 +43,6 @@ El modelo se fundamenta en el análisis de reseñas, creando una columna tempora
   - Devuelve los 5 temas principales junto con las 5 palabras más probables de aparecer juntas en una reseña para la marca seleccionada.
 
 El Notebook usado para el desarrollo de este modelo de recomendación es el siguiente: [Modelo de recomendación N°03](/03.%20ML3_Analisis_Reseñas.ipynb).
-**Imagen Referencial**
 
 ![ML3](../assets/ML3.png)
 
@@ -60,6 +57,5 @@ El modelo se fundamenta en el análisis de reseñas, creando una columna tempora
 - Devuelve los 5 temas principales junto con las 5 palabras más probables de aparecer juntas en una misma reseña para el establecimiento seleccionado.
 
 El Notebook usado para el desarrollo de este modelo de recomendación es el siguiente: [Modelo de recomendación N°04](/03.%20ML3_Analisis_Reseñas.ipynb).
-**Imagen Referencial**
 
 ![ML4](../assets/ML4.png)
