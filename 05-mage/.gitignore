@@ -102,6 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+*.env
 .env
 .venv
 .DS_Store
@@ -173,3 +174,5 @@ scratch*
 *.json
 
 /secrets
+
+dev.env
